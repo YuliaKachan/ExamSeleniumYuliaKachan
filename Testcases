@@ -1,0 +1,71 @@
+
+Test case 1
+Summary: Check successful submitting data in text box
+
+Steps:
+1. Go to the https://demoqa.com/
+2. Choose "Elements"
+3. Choose "Text box"
+4. Enter full name "Yulia"
+5. Enter email "qwerty@gmail.com"
+6. Enter current address "Prorizna 8"
+7. Enter permanent address "Prorizna 24"
+8. Tap "Submit" button
+Expected result:
+The user data is displayed under the text box form
+
+Test case 2
+Summary: Check "checkboxes" are available
+
+Steps:
+1. Go to the https://demoqa.com/
+2. Choose "Elements"
+3. Choose "Check box"
+4. Open "Home" package
+5. Open "Desktop" package
+6. Choose checkbox "Notes"
+Expected result:
+Message "You have selected: notes" is appeared
+
+Test case 3
+Summary: Check successful add of new person at list at Web Tables
+
+Steps:
+1. Go to the https://demoqa.com/
+2. Choose "Elements"
+3. Choose "Web Tables"
+4. Tap "Add" button
+5. Enter first name "Erik"
+6. Enter last name "Ivanov"
+7. Enter email "qwerty@gmail.com"
+8. Enter age "35"
+9. Enter salary "5 000"
+10.Enter department "Security"
+Expected result:
+The record appears in the table
+
+Test case 4
+Summary: Check successful login  to book store application
+
+Steps:
+1. Go to the https://demoqa.com/
+2. Choose "Book Store Application"
+3. Choose "Login"
+4. Enter user name "mm"
+5. Enter password "QWqw12!@"
+6. Tap Login button
+
+Expected result:
+The button log out is displayed
+
+Test case 5
+Summary: Check successful open of New Window
+
+Steps:
+1. Go to the https://demoqa.com/
+2. Choose "Alert, Frame & Windows"
+3. Choose "Browser windows"
+4. Tap New Window button
+
+Expected result:
+The New Window with linkhttps://demoqa.com/sample is open
